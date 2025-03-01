@@ -1,28 +1,28 @@
-# JornadaMilhas
+# 🛫 Landing Page - Site de Compras de Passagens Aéreas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Este projeto foi desenvolvido para praticar conceitos aprendidos no curso da Alura. Ele consiste em um sistema  de compras de passagens áreas, importante lembrar que não implementei todas a funcionalidades apenas a parte de login e cadastro. front-end em Angular e back-end em Java.
+-Em breve ira ser implementado as outras funcionalidades do site, como a página de compras, vendas e melhorias de tratamento de erros.
 
-## Development server
+## 🚀 Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 🔹 Front-end:
+- Angular 16
+- Angular Router para mapeamento de rotas
+- `sessionStorage` para armazenamento do token e informações de sessão
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🔹 Back-end:
+- Java 17
+- Spring Boot
+- Spring Security (com JWT)
+- Banco de dados em memória H2
+- Maven
 
-## Build
+## 📜 Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Registro e login de usuários
+- Autenticação e autorização com JWT
+- Proteção de rotas no front-end
+- Armazenamento do token no `sessionStorage`
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# JornadaMilhas
