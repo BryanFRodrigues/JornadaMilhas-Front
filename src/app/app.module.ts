@@ -19,13 +19,21 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatIconModule } from '@angular/material/icon';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import  {MatInputModule } from '@angular/material/input';
+import  { MatInputModule } from '@angular/material/input';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { BannerFooterComponent } from './shared/banner-footer/banner-footer.component';
 import { ModalComponent } from './shared/modal/modal.component';
-
-
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { MatRadioModule } from '@angular/material/radio'; 
+import { MatDividerModule } from '@angular/material/divider'; 
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { LoginComponent } from './pages/login/login.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { ToastrModule, ToastrService } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -40,7 +48,10 @@ import { ModalComponent } from './shared/modal/modal.component';
     CardDepoiomentosComponent,
     FormBuscaComponent,
     BannerFooterComponent,
-    ModalComponent
+    ModalComponent,
+    CadastroComponent,
+    LoginComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -55,8 +66,15 @@ import { ModalComponent } from './shared/modal/modal.component';
     MatFormFieldModule,
     MatInputModule,
     MatDatepickerModule,
-    MatNativeDateModule
-    
+    MatNativeDateModule,
+    MatRadioModule,
+    MatDividerModule, 
+    MatCheckboxModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    CommonModule,
+    MatSnackBarModule,
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
